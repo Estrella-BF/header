@@ -1,0 +1,9 @@
+{
+   "status":200,
+   "code":1007,
+   "error": 
+      {
+         "type":"Error",
+         "message":"No attachments associated were found"
+      }
+}

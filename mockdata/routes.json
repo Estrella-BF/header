@@ -1,0 +1,9 @@
+{   
+    "/bff-onboarding-pyme-100/v1/sesion": "sesion",
+    "/bff-onboarding-pyme-100/v1/candidato/login": "login",
+    "/bff-onboarding-pyme-100/v1/candidato/adjunto/listar": "listar",
+    "/bff-onboarding-pyme-100/v1/candidato/adjunto/crear": "crearArchivosAdjuntos",
+    "/bff-onboarding-pyme-100/v1/candidato/actualizar": "actualizarCandidato",
+    "/bff-onboarding-pyme-100/v1/candidato": "obtenerCandidato",
+    "/bff-onboarding-pyme-100/v1/locaciones/listar": "listarLocaciones"
+}

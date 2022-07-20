@@ -1,0 +1,9 @@
+{
+    "status": 200,
+    "data": {
+        "salesforceId":"123",
+        "name": "IT-Multicanalidad-050422-1539-58(AL-L7).pdf",
+        "fileFormat": "pdf",
+        "body": "string"
+    }
+}
