@@ -1,0 +1,37 @@
+<div class="">
+  <div class="">
+    <div class="social-network">
+      <div>
+        <img src="./assets/svg/facebook-brand-black-circle.svg" alt="">
+      </div>
+    </div>
+    <div class="menu">
+      <ul class="menu__list">
+        <li
+        *ngFor="let menu of menuList"
+        class="menu__list--items"
+        [ngStyle]="{
+          'color': menuListStyle.color,
+          'font-size': menuListStyle.fontSize,
+          'font-weight': menuListStyle.fontWeight
+        }"
+        >{{menu.name}}</li>
+      </ul>
+      <div *ngIf="specialButton.active">
+        <button
+        class="button-estrella"  
+        [ngStyle]="{
+          'background-color': specialButton.backgroundColor,
+          'border-radius': specialButton.borderRadius,
+          'color': specialButton.color,
+          'font-size': specialButton.fontSize,
+          'font-weight': specialButton.fontWeight,
+          'padding': specialButton.padding
+        }"
+        >
+        {{ specialButton.text }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
