@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
 
   menuListStyle = {
     color: '#030a01',
-    fontSize: '1.2rem',
+    fontSize: '1.8rem',
   };
 
   specialButton = {
@@ -40,10 +40,11 @@ export class HeaderComponent implements OnInit {
     backgroundColor: '#eb8c2a',
     borderRadius: '1em',
     color: '#030a01',
-    fontSize: '1.2rem',
+    fontSize: '1.8rem',
     fontWeight: '600',
-    padding: '0.5em 0.8em',
-    text: 'COTIZAR ALFOMBRA'
+    padding: '0.1em 0.8em',
+    text: 'COTIZAR ALFOMBRA',
+    margin: '0 0 0.7em 0'
   }
   constructor() { }
 

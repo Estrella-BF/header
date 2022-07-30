@@ -8,6 +8,18 @@
   display: contents;
 }
 
+.menu__list--items {
+  cursor: pointer;
+}
+
+.social-network {
+  display: flex; 
+  justify-content: end; 
+  align-items: center;
+  margin: 2em 0;
+}
+
 .social-network--img {
+  cursor: pointer;
   display: inline-block;
 }
