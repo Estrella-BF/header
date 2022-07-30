@@ -1,11 +1,26 @@
-<div class="">
+<header style="padding: 1em;">
   <div class="">
-    <div class="social-network">
-      <div>
-        <img src="./assets/svg/facebook-brand-black-circle.svg" alt="">
+    <div 
+      class="social-network"
+     style="display: flex; justify-content: end; align-items: center;margin: 2em 0;"
+    >
+      <div class="social-network--img" style="margin: 0 0.5em; width: 3em;">
+        <img class="img-fluid" src="./assets/svg/facebook-brand-black-circle.png" alt="">
+      </div>
+      <div class="social-network--img" style="margin: 0 0.5em; width: 3em;">
+        <img class="img-fluid" src="./assets/svg/instagram-brand-black-circle.png" alt="">
+      </div>
+      <div class="social-network--img" style="margin: 0 0.5em; width: 3em;">
+        <img class="img-fluid" src="./assets/svg/tik-tok-brand-black-circle.png" alt="">
+      </div>
+      <div class="social-network--img" style="margin: 0 0.5em; width: 3em;">
+        <img class="img-fluid" src="./assets/svg/youtube-brand-black-circle.png" alt="">
       </div>
     </div>
-    <div class="menu">
+    <div 
+    class="menu"
+    style="padding: 0 10em;"
+    >
       <ul class="menu__list">
         <li
         *ngFor="let menu of menuList"
@@ -34,4 +49,4 @@
       </div>
     </div>
   </div>
-</div>
+</header>
