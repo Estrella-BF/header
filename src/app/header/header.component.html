@@ -19,8 +19,20 @@
     </div>
     <div 
     class="menu"
-    style="padding: 0 10em;"
+    style="padding: 0 10em;position: relative;"
     >
+    <!--special div-->
+      <div 
+      class="menu__logo"
+      style="width: 10em; position: absolute; bottom: -1em;"
+      >
+        <img class="img-fluid" src="./assets/img/alfombrarte.png" alt="">
+      </div>
+      <div 
+      class="menu__logo--bar"
+      style="background: #eb8c2a;height: 1em; width: 100%;position: absolute;bottom: -1em;"
+      ></div>
+      <!--special div-->
       <ul class="menu__list">
         <li
         *ngFor="let menu of menuList"
