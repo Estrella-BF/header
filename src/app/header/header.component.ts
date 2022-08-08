@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IMenu, IMenuListStyle, ISpecialButton } from './models/header.interface';
+import { IHeaderStyle, IMenu, IMenuListStyle, ISpecialButton } from './models/header.interface';
 
 @Component({
   selector: 'app-header',
@@ -8,6 +8,7 @@ import { IMenu, IMenuListStyle, ISpecialButton } from './models/header.interface
 })
 export class HeaderComponent implements OnInit {
 
+  @Input() headerStyle: IHeaderStyle = {} as IHeaderStyle;
   @Input() logo: string = '';
   @Input() menuList: IMenu[] = [];
 

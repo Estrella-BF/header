@@ -1,5 +1,10 @@
-<header style="padding: 1em;">
-  <div class="">
+<header
+  [ngStyle]="{
+    'background-color': headerStyle.backgroundColor
+  }"
+>
+  <div
+  style="padding: 1em;">
     <div 
       class="social-network"
      style="position: absolute; top: -1.5em; right: 0;"

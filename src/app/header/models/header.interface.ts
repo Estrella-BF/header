@@ -1,3 +1,7 @@
+export interface IHeaderStyle {
+    backgroundColor: string;
+}
+
 export interface IMenu {
     id: string;
     name: string;
