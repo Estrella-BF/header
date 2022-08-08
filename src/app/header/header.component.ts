@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { IMenu, IMenuListStyle, ISpecialButton } from './models/header.interface';
 
 @Component({
   selector: 'app-header',
@@ -7,45 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  menuList = [
-    {
-      id: '1',
-      name: 'INICIO'
-    },
-    {
-      id: '1',
-      name: 'NOSOTROS'
-    },
-    {
-      id: '1',
-      name: 'MATERIALES'
-    },
-    {
-      id: '1',
-      name: 'FOTOS'
-    },
-    {
-      id: '1',
-      name: 'CONTÁCTANOS'
-    },
-  ];
+  @Input() logo: string = '';
+  @Input() menuList: IMenu[] = [];
 
-  menuListStyle = {
-    color: '#030a01',
-    fontSize: '1.8rem',
-  };
+  @Input() menuListStyle: IMenuListStyle = {} as IMenuListStyle;
 
-  specialButton = {
-    active: true,
-    backgroundColor: '#eb8c2a',
-    borderRadius: '1em',
-    color: '#030a01',
-    fontSize: '1.8rem',
-    fontWeight: '600',
-    padding: '0.1em 0.8em',
-    text: 'COTIZAR ALFOMBRA',
-    margin: '0 0 0.7em 0'
-  }
+  @Input() specialButton: ISpecialButton = {} as ISpecialButton;
+
   constructor() { }
 
   ngOnInit(): void {
