@@ -6,6 +6,7 @@ export interface IMenu {
     id: string;
     name: string;
 }
+
 export interface IMenuListStyle {
     color: string;
     fontSize: string;

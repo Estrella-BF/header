@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IHeaderStyle, IMenu, IMenuListStyle, ISpecialButton } from './models/header.interface';
+import { IHeaderStyle, IMenu, IMenuListStyle, ISpecialButton } from '../interfaces/header/header.interface';
 
 @Component({
   selector: 'app-header',

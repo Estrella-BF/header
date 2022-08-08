@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IMenu, IMenuListStyle, ISpecialButton } from './header/models/header.interface';
+import { ICarouselStyle } from './interfaces/carousel/carousel.interface';
+import { IMenu, IMenuListStyle, ISpecialButton } from './interfaces/header/header.interface';
 
 @Component({
   selector: 'app-root',
@@ -70,5 +71,12 @@ export class AppComponent implements OnInit {
     fontWeight: '600',
     padding: '0.1em 0.8em 0em 1em',
     text: 'COTIZAR ALFOMBRA',
+  }
+
+  carouselStyle: ICarouselStyle = {
+    images: {
+      width: '100% !important',
+      height: '75vh'
+    }
   }
 }
