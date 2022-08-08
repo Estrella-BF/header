@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IMenuListStyle } from './header/models/header.interface';
+import { IMenuListStyle, ISpecialButton } from './header/models/header.interface';
 
 @Component({
   selector: 'app-root',
@@ -48,16 +48,15 @@ export class AppComponent implements OnInit {
     fontSize: '1.8rem',
   };
 
-
-  specialButton = {
+  specialButton: ISpecialButton = {
     active: true,
     backgroundColor: '#eb8c2a',
     borderRadius: '1em',
+    border: '1px solid #eb8c2a',
     color: '#030a01',
     fontSize: '1.8rem',
     fontWeight: '600',
-    padding: '0.1em 0.8em',
+    padding: '0.1em 0.8em 0em 1em',
     text: 'COTIZAR ALFOMBRA',
-    margin: '0 0 0.7em 0'
   }
 }

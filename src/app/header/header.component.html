@@ -33,7 +33,7 @@
 
       <div 
       class="menu"
-      style="width: 100%;"
+      style="width: 100%;margin-bottom: 1em;"
       >
         <ul class="menu__list">
           <li
@@ -52,11 +52,11 @@
           [ngStyle]="{
             'background-color': specialButton.backgroundColor,
             'border-radius': specialButton.borderRadius,
+            'border': specialButton.border,
             'color': specialButton.color,
             'font-size': specialButton.fontSize,
             'font-weight': specialButton.fontWeight,
-            'padding': specialButton.padding,
-            'margin': specialButton.margin
+            'padding': specialButton.padding
           }"
           >
           {{ specialButton.text }}
