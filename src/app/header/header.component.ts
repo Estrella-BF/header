@@ -8,6 +8,7 @@ import { IHeaderStyle, IMenu, IMenuListStyle, ISpecialButton } from './models/he
 })
 export class HeaderComponent implements OnInit {
 
+  @Input() dropdownMenu: IMenu[] = [];
   @Input() headerStyle: IHeaderStyle = {} as IHeaderStyle;
   @Input() logo: string = '';
   @Input() menuList: IMenu[] = [];
