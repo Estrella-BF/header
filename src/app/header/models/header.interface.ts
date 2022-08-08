@@ -9,6 +9,7 @@ export interface IMenu {
 export interface IMenuListStyle {
     color: string;
     fontSize: string;
+    fontWeight: string;
 };
 
 export interface ISpecialButton {

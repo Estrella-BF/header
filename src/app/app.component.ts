@@ -45,7 +45,8 @@ export class AppComponent implements OnInit {
 
   menuListStyle: IMenuListStyle = {
     color: '#030a01',
-    fontSize: '1.8rem',
+    fontSize: '1.5rem',
+    fontWeight: '300'
   };
 
   specialButton: ISpecialButton = {
@@ -54,7 +55,7 @@ export class AppComponent implements OnInit {
     borderRadius: '1em',
     border: '1px solid #eb8c2a',
     color: '#030a01',
-    fontSize: '1.8rem',
+    fontSize: '1.6rem',
     fontWeight: '600',
     padding: '0.1em 0.8em 0em 1em',
     text: 'COTIZAR ALFOMBRA',

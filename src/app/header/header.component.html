@@ -23,22 +23,28 @@
       </div>
     </div>
 
-    <div style="display: flex; align-items: end;border-bottom: 9px solid #eb8c2a;">
-
-      <!--agregado-->
-      <div style="width: 9em;margin: 0 3em 0 5em">
-        <img class="img-fluid" [src]="logo" alt="">
-      </div>
-      <!--agregado-->
+    <div style="border-bottom: 15px solid #eb8c2a;    position: relative;">
 
       <div 
       class="menu"
-      style="width: 100%;margin-bottom: 1em;"
+      style="margin-bottom: 1em;"
       >
+
+      <!--agregado-->
+      <div>
+        <div style="height: 9em;width: 8em;margin: 0 3em 0 5em;display: inline-block;">
+        </div>
+        <div style="width: 11em;margin: 0 3em 0 5em;position: absolute;bottom: -15px;border-left: 9px solid white;border-right: 9px solid white;">
+          <img class="img-fluid" [src]="logo" alt="">
+        </div>    
+      </div>
+   
+      <!--agregado-->
         <ul class="menu__list">
           <li
           *ngFor="let menu of menuList"
           class="menu__list--items"
+          style="letter-spacing: -2px;"
           [ngStyle]="{
             'color': menuListStyle.color,
             'font-size': menuListStyle.fontSize,
@@ -49,6 +55,7 @@
         <div *ngIf="specialButton.active">
           <button
           class="button-estrella"  
+          style="letter-spacing: -2px;    margin-right: 3em;"
           [ngStyle]="{
             'background-color': specialButton.backgroundColor,
             'border-radius': specialButton.borderRadius,
