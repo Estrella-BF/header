@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ICarouselImagesStyle, ICarouselStyle } from '../interfaces/carousel/carousel.interface';
+import { ICarouselImagesStyle, ICarouselStyle } from '../../interfaces/carousel/carousel.interface';
 
 @Component({
   selector: 'app-carousel',

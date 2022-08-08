@@ -5,4 +5,5 @@ export interface ICarouselStyle {
 export interface ICarouselImagesStyle {
     width: string;
     height: string;
+    heightMobile: string;
 }

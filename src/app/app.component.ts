@@ -76,7 +76,8 @@ export class AppComponent implements OnInit {
   carouselStyle: ICarouselStyle = {
     images: {
       width: '100% !important',
-      height: '75vh'
+      height: '75vh',
+      heightMobile: '40vh'
     }
   }
 }
