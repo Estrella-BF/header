@@ -101,7 +101,10 @@ class="d-none d-md-block"
             'font-size': menuListStyle.fontSize,
             'font-weight': menuListStyle.fontWeight
           }"
-          >{{menu.name}}</li>
+          [routerLink]="['/ofertas']"
+          >
+          {{menu.name}}
+          </li>
         </ul>
         <div *ngIf="specialButton.active">
           <button
