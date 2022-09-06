@@ -1,5 +1,6 @@
 export interface ICarouselStyle {
     images: ICarouselImagesStyle;
+    fontSize: string;
 }
 
 export interface ICarouselImagesStyle {

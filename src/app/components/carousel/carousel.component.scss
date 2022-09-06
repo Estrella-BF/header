@@ -1,0 +1,11 @@
+.carousel-caption { 
+
+    &.full-width {
+        width: 100%;
+        left: 0;
+    }
+
+    &.background-black-and-white {
+        background: #00000085;
+    }
+}

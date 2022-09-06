@@ -38,25 +38,25 @@ export class AppComponent implements OnInit {
       name: 'INICIO'
     },
     {
-      id: '1',
+      id: '2',
       name: 'NOSOTROS'
     },
     {
-      id: '1',
+      id: '3',
       name: 'MATERIALES'
     },
     {
-      id: '1',
-      name: 'FOTOS'
+      id: '4',
+      name: 'BUSCANOS'
     },
     {
-      id: '1',
-      name: 'CONTÁCTANOS'
+      id: '5',
+      name: 'CONTACTENOS'
     },
   ];
 
   menuListStyle: IMenuListStyle = {
-    color: '#030a01',
+    color: 'red',
     fontSize: '1.5rem',
     fontWeight: '300'
   };
@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
     backgroundColor: '#eb8c2a',
     borderRadius: '1em',
     border: '1px solid #eb8c2a',
-    color: '#030a01',
+    color: 'white',
     fontSize: '1.6rem',
     fontWeight: '600',
     padding: '0.1em 0.8em 0em 1em',
@@ -78,6 +78,7 @@ export class AppComponent implements OnInit {
       width: '100% !important',
       height: '75vh',
       heightMobile: '40vh'
-    }
+    },
+    fontSize: '2rem'
   }
 }
