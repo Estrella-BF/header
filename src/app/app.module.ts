@@ -6,16 +6,23 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-/*   {
+  {
     path: '',
-    component: LoginHazteClienteComponent,
-  }, */
+    redirectTo: '/inicio',
+    pathMatch: 'full'
+  },
+  {
+    path: 'inicio',
+    component: HomeComponent,
+  },
   {
     path: 'ofertas',
     component: ContactUsComponent
-  }
+  },
+  
 /*   {
     path: '**',
     component: LoginHazteClienteComponent,
@@ -28,7 +35,8 @@ const routes: Routes = [
     HeaderComponent,
     CarouselComponent,
     FooterComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    HomeComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

@@ -73,14 +73,4 @@ export class AppComponent implements OnInit {
     padding: '0.1em 0.8em 0em 1em',
     text: 'COTIZAR ALFOMBRA',
   }
-
-  carouselStyle: ICarouselStyle = {
-    images: {
-      width: '100% !important',
-      height: '75vh',
-      heightMobile: '40vh'
-    },
-    fontSize: '2rem',
-    radioButtons: RadioButtonsEnum.BigCircle
-  }
 }
