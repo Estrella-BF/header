@@ -1,4 +1,22 @@
 .footer {
+    padding: 1em 0;
     background-color: #222222;
     color: white;
+
+    .mail, .phone {
+        display: flex;
+        align-items: center;
+        margin: 0 2em;
+    }
+
+    .footer--icons {
+        margin-right: 1em;
+        width: 3.5em;
+    }
+
+    .footer--text {
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 0;
+    }
 }
