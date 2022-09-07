@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
     {
       id: '2',
       name: 'NOSOTROS',
-      url: ''
+      url: 'nosotros'
     },
     {
       id: '3',
@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
     },
     {
       id: '4',
-      name: 'BUSCANOS',
+      name: 'FOTOS',
       url: ''
     },
     {
