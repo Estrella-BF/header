@@ -4,16 +4,28 @@
     background-repeat: no-repeat;
     background-size: contain;
 
+    @media (max-width: 575.98px) {
+        margin: 3em 0;
+    }
+
     .about-us--title {
         font-size: 5rem;
         font-weight: 300;
         color: gray;
         margin-bottom: 0.5em;
+
+        @media (max-width: 575.98px) {
+            font-size: 3rem;
+        }
     }
     
     .about-us--text {
         font-size: 2.5rem;
         font-weight: 300;
         line-height: 1;
+
+        @media (max-width: 575.98px) {
+            font-size: 1.5rem;
+        }
     }
 }
