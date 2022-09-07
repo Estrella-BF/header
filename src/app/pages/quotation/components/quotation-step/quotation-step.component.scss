@@ -1,0 +1,23 @@
+.quotation__step {
+    display: flex;
+    align-items: center;
+}
+
+.quotation__step--number {
+    font-size: 6rem;
+    margin-right: 0.2em;
+    color: #eb8c2a;
+}
+
+.quotation__detail--title {
+    font-size: 1.2rem;
+    color: #eb8c2a;
+}
+
+.quotation__step--right {
+    text-align: right;
+    .quotation__step--number {
+        margin: 0;
+        margin-left: 0.2em;
+    }
+}
