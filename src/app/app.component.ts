@@ -23,11 +23,13 @@ export class AppComponent implements OnInit {
   dropdownMenu: IMenu[] = [
     {
       id: '1',
-      name: 'Alfombra 1'
+      name: 'Alfombra 1',
+      url: ''
     },
     {
       id: '2',
-      name: 'Alfombra 2'
+      name: 'Alfombra 2',
+      url: ''
     },
   ];
 
@@ -36,23 +38,28 @@ export class AppComponent implements OnInit {
   menuList = [
     {
       id: '1',
-      name: 'INICIO'
+      name: 'INICIO',
+      url: 'inicio'
     },
     {
       id: '2',
-      name: 'NOSOTROS'
+      name: 'NOSOTROS',
+      url: ''
     },
     {
       id: '3',
-      name: 'MATERIALES'
+      name: 'MATERIALES',
+      url: ''
     },
     {
       id: '4',
-      name: 'BUSCANOS'
+      name: 'BUSCANOS',
+      url: ''
     },
     {
       id: '5',
-      name: 'CONTACTENOS'
+      name: 'CONTACTENOS',
+      url: 'contactanos'
     },
   ];
 

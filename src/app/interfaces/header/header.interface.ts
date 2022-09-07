@@ -5,6 +5,7 @@ export interface IHeaderStyle {
 export interface IMenu {
     id: string;
     name: string;
+    url: string;
 }
 
 export interface IMenuListStyle {

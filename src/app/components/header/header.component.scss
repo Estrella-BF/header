@@ -10,6 +10,11 @@
 
 .menu__list--items {
   cursor: pointer;
+
+  &.current-url {
+    font-weight: 400 !important;
+    color: yellow;
+  }
 }
 
 .social-network {
@@ -22,4 +27,9 @@
 .social-network--img {
   cursor: pointer;
   display: inline-block;
+}
+
+.menu--active {
+  // personalizado
+  font-weight: 400 !important;
 }

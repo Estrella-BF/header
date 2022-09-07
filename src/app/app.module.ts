@@ -19,7 +19,7 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'ofertas',
+    path: 'contactanos',
     component: ContactUsComponent
   },
   
