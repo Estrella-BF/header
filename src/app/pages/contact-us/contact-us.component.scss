@@ -1,0 +1,19 @@
+.about-us {
+    margin: 7em 0;
+    background-image: url('/assets/temp/about-us.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .about-us--title {
+        font-size: 5rem;
+        font-weight: 300;
+        color: gray;
+        margin-bottom: 0.5em;
+    }
+    
+    .about-us--text {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1;
+    }
+}
