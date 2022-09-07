@@ -9,6 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { QuotationComponent } from './pages/quotation/quotation.component';
+import { QuotationHeaderComponent } from './pages/quotation/components/quotation-header/quotation-header.component';
+import { QuotationStepComponent } from './pages/quotation/components/quotation-step/quotation-step.component';
 
 const routes: Routes = [
   {
@@ -27,6 +29,10 @@ const routes: Routes = [
   {
     path: 'nosotros',
     component: AboutUsComponent
+  },
+  {
+    path: 'cotizacion',
+    component: QuotationComponent
   }
   
 /*   {
@@ -44,7 +50,9 @@ const routes: Routes = [
     ContactUsComponent,
     HomeComponent,
     AboutUsComponent,
-    QuotationComponent
+    QuotationComponent,
+    QuotationHeaderComponent,
+    QuotationStepComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

@@ -120,6 +120,9 @@ class="d-none d-md-block"
             'font-weight': specialButton.fontWeight,
             'padding': specialButton.padding
           }"
+          routerLink="cotizacion"
+          routerLinkActive="menu--active"
+          [routerLinkActiveOptions]="{ exact: true }" 
           >
           {{ specialButton.text }}
           </button>
