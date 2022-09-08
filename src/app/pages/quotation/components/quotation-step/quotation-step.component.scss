@@ -9,9 +9,24 @@
     color: #eb8c2a;
 }
 
-.quotation__detail--title {
-    font-size: 1.2rem;
+.quotation__title {
+    font-size: 1.7rem;
     color: #eb8c2a;
+}
+
+.quotation__title--dashed {
+    position: relative;
+    top: -25px;
+    height: 1px;
+    background-image: linear-gradient(to right, #eb8c2a 0%, #eb8c2a 50%, transparent 50%);
+    background-size: 28px 1px;
+    background-repeat: repeat-x;
+}
+
+.quotation__detail--text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: justify;
 }
 
 .quotation__step--right {
@@ -19,5 +34,13 @@
     .quotation__step--number {
         margin: 0;
         margin-left: 0.2em;
+    }
+
+    .quotation__title--text {
+        z-index: 1;
+        position: relative;
+        background: white;
+        display: inline-block;
+        padding-left: 1em;
     }
 }
