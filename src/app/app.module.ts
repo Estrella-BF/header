@@ -11,6 +11,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { QuotationComponent } from './pages/quotation/quotation.component';
 import { QuotationHeaderComponent } from './pages/quotation/components/quotation-header/quotation-header.component';
 import { QuotationStepComponent } from './pages/quotation/components/quotation-step/quotation-step.component';
+import { SimpleCatalogComponent } from './pages/simple-catalog/simple-catalog.component';
 
 const routes: Routes = [
   {
@@ -33,6 +34,11 @@ const routes: Routes = [
   {
     path: 'cotizacion',
     component: QuotationComponent
+  },
+  // customized name route
+  {
+    path: 'materiales',
+    component: SimpleCatalogComponent
   }
   
 /*   {
@@ -52,7 +58,8 @@ const routes: Routes = [
     AboutUsComponent,
     QuotationComponent,
     QuotationHeaderComponent,
-    QuotationStepComponent
+    QuotationStepComponent,
+    SimpleCatalogComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
