@@ -9,7 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { QuotationComponent } from './pages/quotation/quotation.component';
-import { QuotationHeaderComponent } from './pages/quotation/components/quotation-header/quotation-header.component';
+import { HeaderBannerComponent } from './components/header-banner/header-banner.component';
 import { QuotationStepComponent } from './pages/quotation/components/quotation-step/quotation-step.component';
 import { SimpleCatalogComponent } from './pages/simple-catalog/simple-catalog.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
@@ -62,7 +62,7 @@ const routes: Routes = [
     HomeComponent,
     AboutUsComponent,
     QuotationComponent,
-    QuotationHeaderComponent,
+    HeaderBannerComponent,
     QuotationStepComponent,
     SimpleCatalogComponent,
     GalleryComponent
