@@ -12,6 +12,7 @@ import { QuotationComponent } from './pages/quotation/quotation.component';
 import { QuotationHeaderComponent } from './pages/quotation/components/quotation-header/quotation-header.component';
 import { QuotationStepComponent } from './pages/quotation/components/quotation-step/quotation-step.component';
 import { SimpleCatalogComponent } from './pages/simple-catalog/simple-catalog.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 const routes: Routes = [
   {
@@ -59,7 +60,8 @@ const routes: Routes = [
     QuotationComponent,
     QuotationHeaderComponent,
     QuotationStepComponent,
-    SimpleCatalogComponent
+    SimpleCatalogComponent,
+    GalleryComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
