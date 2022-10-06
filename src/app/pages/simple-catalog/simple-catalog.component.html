@@ -1,1 +1,24 @@
-<p>simple-catalog works!</p>
+<div class="simple-catalog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="simple-catalog__list-images">
+                    <div
+                    *ngFor="let item of images" 
+                    class="simple-catalog__item"
+                    style="margin-bottom: 2em;"
+                    >
+                        <img 
+                        [src]="item.url" alt="" 
+                        class="img-fluid simple-catalog__item--image"
+                        style="height: 24em;"
+                        >
+                        <span class="simple-catalog--name">{{ item.name }}</span>
+         
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
