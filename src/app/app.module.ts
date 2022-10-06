@@ -36,6 +36,10 @@ const routes: Routes = [
     path: 'cotizacion',
     component: QuotationComponent
   },
+  {
+    path: 'fotos',
+    component: GalleryComponent
+  },
   // customized name route
   {
     path: 'materiales',

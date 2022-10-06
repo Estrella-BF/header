@@ -54,7 +54,7 @@ export class AppComponent implements OnInit {
     {
       id: '4',
       name: 'FOTOS',
-      url: ''
+      url: 'fotos'
     },
     {
       id: '5',
