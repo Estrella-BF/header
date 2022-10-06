@@ -34,6 +34,6 @@ export class SimpleCatalogComponent implements OnInit {
       url: './assets/temp/catalog-test-image.jpeg',
       name: 'SHAGGY DE OVINO EN ALT. DE 25 y 35 MM'
     }
-  ]
+  ];
 
 }

@@ -1,1 +1,23 @@
-<p>gallery works!</p>
+<div class="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="gallery__list-images">
+                    <div
+                    *ngFor="let item of images" 
+                    class="gallery__item"
+                    style="margin-bottom: 2em;width: 28%; cursor: pointer"
+                    >
+                        <img 
+                        [src]="item.url" alt="" 
+                        class="img-fluid gallery__item--image"
+                        style=""
+                        >
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
