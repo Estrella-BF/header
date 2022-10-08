@@ -1,0 +1,48 @@
+.contact-us__social-network--background, .contact-us__phone--background, .contact-us__mail--background {
+    display: flex;
+    justify-content: end;
+}
+
+.contact-us__social-network, .contact-us__phone, .contact-us__mail {
+    text-align: center;
+    width: 25%;
+}
+
+.contact-us__social-network--background {
+    background-color: #222222;
+    color: white;
+}
+
+.contact-us__social-network--text {
+    font-size: 5rem;
+}
+
+.contact-us__social-network--icon {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.contact-us__social-network--icons {
+    width: 6em;
+}
+
+.contact-us__phone--background, .contact-us__mail--background {
+    background-color: #eb8c2a;
+    color: white;
+}
+
+.contact-us__phone--icons, .contact-us__mail--icons {
+    width: 10em;
+}
+
+.contact-us__phone--text, .contact-us__us__mail--text, .contact-us__mail--text {
+    font-size: 4rem;
+    font-weight: 500;
+
+    span {
+        display: block;
+        font-size: 3rem;
+    }
+
+}

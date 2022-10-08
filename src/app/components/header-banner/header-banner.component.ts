@@ -13,6 +13,9 @@ export class HeaderBannerComponent implements OnInit {
   @Input()
   description: string = '';
 
+  @Input()
+  title: string = '';
+
   backgroundUrl = '';
 
   constructor() { }
