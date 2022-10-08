@@ -1,9 +1,10 @@
-.contact-us__social-network--background, .contact-us__phone--background, .contact-us__mail--background {
+.contact-us__social-network--background, .contact-us__phone--background, .contact-us__mail--background, .contact-us__whatsapp--background {
     display: flex;
     justify-content: end;
+    padding-right: 10em;
 }
 
-.contact-us__social-network, .contact-us__phone, .contact-us__mail {
+.contact-us__social-network, .contact-us__phone, .contact-us__mail, .contact-us__whatsapp {
     text-align: center;
     width: 25%;
 }
@@ -11,6 +12,8 @@
 .contact-us__social-network--background {
     background-color: #222222;
     color: white;
+    padding-top: 12em;
+    padding-bottom: 6em;
 }
 
 .contact-us__social-network--text {
@@ -32,6 +35,11 @@
     color: white;
 }
 
+.contact-us__phone--background {
+    padding-top: 8em;
+    padding-bottom: 10em;
+}
+
 .contact-us__phone--icons, .contact-us__mail--icons {
     width: 10em;
 }
@@ -45,4 +53,35 @@
         font-size: 3rem;
     }
 
+}
+
+.contact-us__mail--background {
+    padding-bottom: 8em;
+}
+
+.contact-us__whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us__whatsapp--background {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.contact-us__whatsapp--text {
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.contact-us__whatsapp--icon {
+    margin-left: 3em;
+    width: 12em;
+}
+
+.footer--background {
+    background-color: #eb8c2a;
+    height: 20em;
 }
