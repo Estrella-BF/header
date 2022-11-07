@@ -8,6 +8,8 @@
 .contact-us__social-network, .contact-us__phone, .contact-us__mail, .contact-us__whatsapp {
     display: inline-block;
     margin-right: 5em;
+    width: 36em;
+    text-align: center;
     /* text-align: center;
     width: 25%; */
 }
@@ -20,7 +22,7 @@
 }
 
 .contact-us__social-network--text {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .contact-us__social-network--icon {
@@ -54,15 +56,26 @@
     width: 10em;
 }
 
+.contact-us__phone--icon {
+    font-size: 5rem;
+}
+
 .contact-us__phone--text, .contact-us__us__mail--text, .contact-us__mail--text {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
 
     span {
         display: block;
-        font-size: 3rem;
+        font-size: 2rem;
+        font-weight: 400;
     }
 
+}
+
+.contact-us__mail--icon {
+    i {
+        font-size: 5rem;
+    }
 }
 
 .contact-us__mail--background {
@@ -78,17 +91,20 @@
 .contact-us__whatsapp--background {
     padding-top: 5em;
     padding-bottom: 5em;
+    display: flex;
+    justify-content: end;
+}
+
+.contact-us__whatsapp--icon {
+    margin-left: 2em;
+    width: 6em;
 }
 
 .contact-us__whatsapp--text {
     font-weight: 300;
     font-size: 3rem;
     line-height: 1.1;
-}
-
-.contact-us__whatsapp--icon {
-    margin-left: 3em;
-    width: 12em;
+    letter-spacing: -3px;
 }
 
 .footer--background {
