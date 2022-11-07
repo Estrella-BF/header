@@ -1,12 +1,15 @@
 .contact-us__social-network--background, .contact-us__phone--background, .contact-us__mail--background, .contact-us__whatsapp--background {
-    display: flex;
+    text-align: right;
+  /*   display: flex;
     justify-content: end;
-    padding-right: 10em;
-}
+    padding-right: 10em; */
+} 
 
 .contact-us__social-network, .contact-us__phone, .contact-us__mail, .contact-us__whatsapp {
-    text-align: center;
-    width: 25%;
+    display: inline-block;
+    margin-right: 5em;
+    /* text-align: center;
+    width: 25%; */
 }
 
 .contact-us__social-network--background {
@@ -17,13 +20,20 @@
 }
 
 .contact-us__social-network--text {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .contact-us__social-network--icon {
-    display: flex;
+ /*    display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 2em; */
+    font-size: 5rem;
+    text-align: center;
+
+    i {
+        margin: 0 0.3em;
+        vertical-align: middle;
+    }
 }
 
 .contact-us__social-network--icons {
@@ -84,4 +94,28 @@
 .footer--background {
     background-color: #eb8c2a;
     height: 20em;
+}
+
+.contact-us--background-img {
+    img {
+        position: absolute;
+        width: 63em;
+        margin-top: 9em;
+        margin-left: 6em;
+        box-shadow: 13px 16px 29px rgb(86 86 86);
+    }    
+}
+
+.contact-us__social-network--facebook, .contact-us__social-network--instagram {
+    display: inline-block;
+}
+.contact-us__social-network--instagram {
+    i {
+        font-size: 3.5rem;
+        background: white;
+        border-radius: 50%;
+        color: initial;
+        width: 74%;
+        padding: 0.2em;
+    }
 }
