@@ -9,6 +9,7 @@
 
   .zoom {
     height: 21em;
+
   }
 
   .zoom img:hover {
@@ -33,5 +34,52 @@
     align-items: baseline;
   }
 
+  .zoom__discount {
+    background-color: yellow;
+    border-radius: 50%;
+    top: 2em;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+
+  .zoom__shared--button { 
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 50%;
+    bottom: 2em;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8em;
+  }
+
+  .zoom__shared--icon {
+    color: white;
+  }
+
+  .zoom__shared--socialMedia {
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 0.3em 1em;
+
+    a {
+      color: white;
+      padding: 0 0.5em;
+    }
+
+    span {
+      font-size: 1.2rem;
+      vertical-align: text-bottom;
+    }
+  }
   
 }
