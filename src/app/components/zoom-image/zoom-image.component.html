@@ -1,0 +1,12 @@
+<div
+id="images" class="app-zoom"
+>
+  <div
+  class="zoom"
+  (mousemove)="zoomIn($event)"
+  (mouseleave)="zoomOut($event)"
+  >
+    <img class="img-fluid h-100" [src]="imageUrl" />
+  </div>
+
+</div>

@@ -13,6 +13,7 @@ import { HeaderBannerComponent } from './components/header-banner/header-banner.
 import { QuotationStepComponent } from './pages/quotation/components/quotation-step/quotation-step.component';
 import { SimpleCatalogComponent } from './pages/simple-catalog/simple-catalog.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { ZoomImageComponent } from './components/zoom-image/zoom-image.component';
 
 const routes: Routes = [
   {
@@ -65,7 +66,8 @@ const routes: Routes = [
     HeaderBannerComponent,
     QuotationStepComponent,
     SimpleCatalogComponent,
-    GalleryComponent
+    GalleryComponent,
+    ZoomImageComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
